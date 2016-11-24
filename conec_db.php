@@ -1,6 +1,6 @@
 <?php
 function Conection(){
-   if (!($link=mysql_connect("localhost","root","198632")))  {
+   if (!($link=mysql_connect("localhost","root","")))  {
    	die("Error al conectar a la base de datos");
       exit();
    }
